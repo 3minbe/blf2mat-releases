@@ -8,7 +8,14 @@ Files:
 
 Recommended release flow:
 
-1. Build the installer in the private source repo.
-2. Create a release in this public repo with tag like `v1.0.0`.
-3. Upload `BlfToMatConverter_Setup.exe` to that release.
-4. Update `version.json` so the app can detect the new version.
+1. Create this repo as a public repository.
+2. Add release tags like `v1.0.0`.
+3. Upload `BlfToMatConverter_Setup.exe` to the matching GitHub Release.
+4. Keep `version.json` updated so the desktop app can detect new versions.
+
+If you use the private source repo workflow:
+
+1. Add a fine-grained PAT as `BLF2MAT_RELEASE_PAT` in the private source repo secrets.
+2. Give that token access to this repo with at least `Contents: Read and write`.
+3. Push a new version to the `release` branch in the private source repo.
+4. GitHub Actions will build the installer, update `version.json`, and upload the installer asset here.

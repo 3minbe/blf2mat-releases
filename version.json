@@ -1,8 +1,8 @@
 {
-  "version": "1.0.0",
-  "name": "BLF to MAT Converter 1.0.0",
-  "installer_url": "https://github.com/3minbe/blf2mat-releases/releases/download/v1.0.0/BlfToMatConverter_Setup.exe",
-  "release_url": "https://github.com/3minbe/blf2mat-releases/releases/tag/v1.0.0",
-  "published_at": "2026-03-22T00:00:00Z",
-  "notes": "Initial public installer release."
+  "version": "1.1.0",
+  "name": "BLF to MAT Converter 1.1.0",
+  "installer_url": "https://github.com/3minbe/blf2mat-releases/releases/download/v1.1.0/BlfToMatConverter_Setup.exe",
+  "release_url": "https://github.com/3minbe/blf2mat-releases/releases/tag/v1.1.0",
+  "published_at": "2026-03-22T14:40:33Z",
+  "notes": "BLF to MAT Converter 1.1.0 release."
 }
