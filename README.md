@@ -1,22 +1,16 @@
 # blf2mat-releases
 
-Public update metadata and installer distribution repo for BLF to MAT Converter.
+`BLF to MAT Converter`의 공개 릴리스 저장소입니다.
 
-Files:
+이 저장소는 Windows 설치 파일과 앱 업데이트 정보를 배포하는 용도로 사용됩니다.
 
-- `version.json`: App update metadata read by the desktop app
-- `release_notes.json`: Version-by-version release notes read by the desktop app after updates
+## 다운로드
 
-Recommended release flow:
+최신 설치 파일은 [Releases](../../releases) 페이지에서 다운로드할 수 있습니다.
 
-1. Create this repo as a public repository.
-2. Add release tags like `v1.0.0`.
-3. Upload `BlfToMatConverter_Setup.exe` to the matching GitHub Release.
-4. Keep `version.json` and `release_notes.json` updated so the desktop app can detect new versions and show cumulative release notes.
+- 설치 파일 이름: `BlfToMatConverter_Setup.exe`
 
-If you use the private source repo workflow:
+## 설명
 
-1. Add a fine-grained PAT as `BLF2MAT_RELEASE_PAT` in the private source repo secrets.
-2. Give that token access to this repo with at least `Contents: Read and write`.
-3. Push a new version to the `release` branch in the private source repo.
-4. GitHub Actions will build the installer, update `version.json` and `release_notes.json`, and upload the installer asset here.
+- GitHub Releases에 버전별 설치 파일이 업로드됩니다.
+- `version.json`과 `release_notes.json`은 앱의 업데이트 확인 기능에 사용됩니다.
