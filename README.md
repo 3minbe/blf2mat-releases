@@ -9,8 +9,3 @@
 최신 설치 파일은 [Releases](../../releases) 페이지에서 다운로드할 수 있습니다.
 
 - 설치 파일 이름: `BlfToMatConverter_Setup.exe`
-
-## 설명
-
-- GitHub Releases에 버전별 설치 파일이 업로드됩니다.
-- `version.json`과 `release_notes.json`은 앱의 업데이트 확인 기능에 사용됩니다.
