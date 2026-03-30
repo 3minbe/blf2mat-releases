@@ -1,9 +1,9 @@
 {
-  "version": "1.1.14",
-  "name": "b2m v1.1.14",
-  "installer_name": "b2m_Setup.exe",
-  "installer_url": "https://github.com/3minbe/blf2mat-releases/releases/download/v1.1.14/b2m_Setup.exe",
-  "release_url": "https://github.com/3minbe/blf2mat-releases/releases/tag/v1.1.14",
+  "version": "1.1.15",
+  "name": "b2m v1.1.15",
+  "installer_name": "BlfToMatConverter_Setup.exe",
+  "installer_url": "https://github.com/3minbe/blf2mat-releases/releases/download/v1.1.15/BlfToMatConverter_Setup.exe",
+  "release_url": "https://github.com/3minbe/blf2mat-releases/releases/tag/v1.1.15",
   "release_notes_url": "https://raw.githubusercontent.com/3minbe/blf2mat-releases/main/release_notes.json",
-  "published_at": "2026-03-30T11:38:40Z"
+  "published_at": "2026-03-30T12:03:01Z"
 }
