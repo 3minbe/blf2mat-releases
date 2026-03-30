@@ -269,6 +269,18 @@
         "v1.1.13(Hotfix)"
       ],
       "published_at": "2026-03-30T11:20:56Z"
+    },
+    {
+      "version": "1.1.14",
+      "title": "b2m v1.1.14",
+      "notes": [
+        "Add BLF to MAT converter app and installer setup",
+        "Add update check and public release automation for v1.1.0",
+        "Fix PAT authentication for public release repo checkout",
+        "Fix release workflow checkout and metadata generation",
+        "Track dist artifacts and prepare installer update flow for v1.1.1"
+      ],
+      "published_at": "2026-03-30T11:38:40Z"
     }
   ]
 }
