@@ -147,15 +147,20 @@
     },
     {
       "version": "1.1.15",
-      "title": "b2m v1.1.15",
+      "title": "v1.1.15",
       "notes": [
-        "Add BLF to MAT converter app and installer setup",
-        "Add update check and public release automation for v1.1.0",
-        "Fix PAT authentication for public release repo checkout",
-        "Fix release workflow checkout and metadata generation",
-        "Track dist artifacts and prepare installer update flow for v1.1.1"
+        "앱이 실행되지 않는 문제 수정",
+        "Release Note 표현 방식 개선"
       ],
-      "published_at": "2026-03-30T12:03:01Z"
+      "published_at": ""
+    },
+    {
+      "version": "1.1.16",
+      "title": "v1.1.16(Hotfix)",
+      "notes": [
+        "Release Note 표현 방식 개선"
+      ],
+      "published_at": "2026-03-31T00:33:51Z"
     }
   ]
 }
