@@ -271,7 +271,16 @@
         "파일명 변경 시 Windows 탐색기 방식의 기본 이름을 제안하고 사용자가 직접 수정할 수 있도록 개선",
         "저장 방식 영역의 사용자 지정 폴더명 입력칸에 폴더명 라벨 추가"
       ],
-      "published_at": "2026-06-18T04:20:32Z"
+      "published_at": "2026-May-17"
+    },
+    {
+      "version": "1.4.1",
+      "title": "v1.4.1(Hotfix)",
+      "notes": [
+        "샘플링 타임 재설정 시 리샘플링 값이 뒤쳐지는 문제 수정",
+        "Logged Timestamps 모드는 원본 로깅 샘플 기준을 유지하고, Resample by Interval/Time Vector 모드에만 적용"
+      ],
+      "published_at": "2026-06-24T05:38:23Z"
     }
   ]
 }
