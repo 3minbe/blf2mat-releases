@@ -280,7 +280,15 @@
         "샘플링 타임 재설정 시 리샘플링 값이 뒤쳐지는 문제 수정",
         "Logged Timestamps 모드는 원본 로깅 샘플 기준을 유지하고, Resample by Interval/Time Vector 모드에만 적용"
       ],
-      "published_at": "2026-06-24T05:38:23Z"
+      "published_at": "2026-Jun-24"
+    },
+    {
+      "version": "1.4.2",
+      "title": "v1.4.2(Hotfix)",
+      "notes": [
+        "BLF/DBC 파일 목록 간 선택 상태가 동시에 유지되지 않도록 개선"
+      ],
+      "published_at": "2026-06-24T06:13:36Z"
     }
   ]
 }
